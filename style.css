@@ -1,0 +1,105 @@
+.carousel-item {
+    height: 100vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: contain;
+    margin-top: 50px;
+  }
+
+  .custom-logo{
+    height: 60px;  
+  }
+
+#back-to-top {
+  display: none;
+  position: fixed;
+  bottom: 2rem;
+  right: 4rem;
+  background: gray;
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  border-radius: 50%;
+  color: #0A1128;
+  transform: rotate(-90deg);
+  cursor: pointer;
+  padding: auto;
+  font-size: 18px;
+
+
+
+}
+
+
+#back-to-top:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+footer{
+  background-color: #111;
+  height: auto;
+  width: auto ;
+  font-family: "Open Sans";
+  padding-top: 40px;
+  color: #fff;
+}
+.footer-content{
+  display: content;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+.socials{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0 3rem 0;  
+}
+.socials li{
+  margin: 0 10px;
+}
+.socials a{
+  text-decoration: none;
+  color: #fff;
+}
+.socials a i{
+  font-size: 1.1rem;
+  transition: color .4s ease;
+}
+.socials a:hover i{
+  color: aqua;
+
+}
+
+.footer-bottom{
+  background:#F8F9FA;
+  width: auto;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-bottom p{
+  font-size: 14px;
+  word-spacing: 2px;
+  text-transform: none;
+}
+.footer-bottom span{
+  text-transform: uppercase;
+  opacity: .4;
+  font-weight: 200;
+}
+img {
+  height: 200px;
+}

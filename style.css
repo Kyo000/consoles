@@ -103,3 +103,6 @@ footer{
 img {
   height: 200px;
 }
+.btn:hover {
+background-color: #2F2CC9;
+}
